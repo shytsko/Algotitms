@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+пше <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f0a6d77-2ced-4136-8587-0d6fb23934e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/BinarySearsh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/BinarySearshTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/SortingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWork1/Task1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWork1/Task1Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
