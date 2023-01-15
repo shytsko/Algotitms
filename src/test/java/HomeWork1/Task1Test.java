@@ -70,6 +70,10 @@ class Task1Test {
         Assertions.assertArrayEquals(arrayShiftLeft7, testArray);
         Task1.shiftArray(testArray, 7);
         Assertions.assertArrayEquals(array, testArray);
+        Task1.shiftArray(testArray, 44);
+        Assertions.assertArrayEquals(arrayShiftRight4, testArray);
+        Task1.shiftArray(testArray, -64);
+        Assertions.assertArrayEquals(array, testArray);
     }
 
 }
