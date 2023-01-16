@@ -1,4 +1,4 @@
-пше <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5f0a6d77-2ced-4136-8587-0d6fb23934e1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson2/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Sorting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +85,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortingTest.testHeapSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Seminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson2" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.SortingTest" />
+      <option name="METHOD_NAME" value="testHeapSorting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Seminars" />
       <extension name="coverage">
@@ -95,22 +112,6 @@
       <option name="PACKAGE_NAME" value="HomeWork1" />
       <option name="MAIN_CLASS_NAME" value="HomeWork1.Task1Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1Test.testFibonacciRecursion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Seminars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWork1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HomeWork1" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork1.Task1Test" />
-      <option name="METHOD_NAME" value="testFibonacciRecursion" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,10 +135,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SortingTest" />
+        <item itemvalue="JUnit.SortingTest.testHeapSorting" />
         <item itemvalue="JUnit.BinarySearshTest" />
         <item itemvalue="JUnit.Task1Test" />
         <item itemvalue="JUnit.Task1Test.testShiftArray" />
-        <item itemvalue="JUnit.Task1Test.testFibonacciRecursion" />
       </list>
     </recent_temporary>
   </component>

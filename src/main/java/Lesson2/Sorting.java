@@ -38,4 +38,31 @@ public class Sorting {
         array[index1] = array[index2];
         array[index2] = temp;
     }
+
+    public static void heapSorting(int[] array) {
+        for(int i = array.length/2 - 1; i >= 0; i--)
+            heapify(array, i, array.length);
+
+        for (int i = array.length - 1; i >= 0 ; i--) {
+            swap(array, 0, i);
+            heapify(array, 0, i);
+        }
+    }
+
+    private static void heapify(int[] array, int indexParent, int heapSize) {
+        int indexLeftChild = indexParent * 2 + 1;
+        int indexRightChild = indexParent * 2 + 2;
+
+        int indexLargest = indexParent;
+        if(indexLeftChild < heapSize && array[indexLeftChild] > array[indexLargest])
+            indexLargest = indexLeftChild;
+        if(indexRightChild < heapSize && array[indexRightChild] > array[indexLargest])
+            indexLargest = indexRightChild;
+
+        if(indexLargest != indexParent) {
+            swap(array, indexLargest, indexParent);
+            heapify(array, indexLargest, heapSize);
+        }
+
+    }
 }
