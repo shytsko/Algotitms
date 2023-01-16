@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f0a6d77-2ced-4136-8587-0d6fb23934e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWork2/Notebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lesson2/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Sorting.java" afterDir="false" />
     </list>
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,7 +55,20 @@
       <recent name="HomeWork1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortingTest">
+  <component name="RunManager" selected="Application.Notebook">
+    <configuration name="Notebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork2.Notebook" />
+      <module name="Seminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySearshTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Seminars" />
       <extension name="coverage">
@@ -116,29 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1Test.testShiftArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Seminars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWork1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="HomeWork1" />
-      <option name="MAIN_CLASS_NAME" value="HomeWork1.Task1Test" />
-      <option name="METHOD_NAME" value="testShiftArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Notebook" />
         <item itemvalue="JUnit.SortingTest" />
         <item itemvalue="JUnit.SortingTest.testHeapSorting" />
         <item itemvalue="JUnit.BinarySearshTest" />
         <item itemvalue="JUnit.Task1Test" />
-        <item itemvalue="JUnit.Task1Test.testShiftArray" />
       </list>
     </recent_temporary>
   </component>

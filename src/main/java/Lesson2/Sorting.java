@@ -1,6 +1,8 @@
 package Lesson2;
 
 public class Sorting {
+
+
     public static void quickSorting(int[] array) {
         quickSorting(array, 0, array.length - 1);
     }
