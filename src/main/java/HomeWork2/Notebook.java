@@ -34,16 +34,14 @@ public class Notebook implements Comparable<Notebook> {
         public String toString() {
             return this.title;
         }
-    }
-
-    ;
+    };
 
     private static double[] PRICE_VALUES = {100, 200, 300, 400, 500, 600, 700, 800};
     private static int[] RAM_VALUES = {4, 8, 16, 20, 24, 28, 32};
 
     private double price;
     private int ram;
-    Brand brand;
+    private Brand brand;
 
     public Notebook() {
         Random rnd = new Random();
@@ -64,10 +62,12 @@ public class Notebook implements Comparable<Notebook> {
 
     @Override
     public int compareTo(Notebook o) {
-        if (this.price != o.price)
-            return Double.compare(this.price, o.price);
-        if (this.ram != o.ram)
-            return Integer.compare(this.ram, o.ram);
+        int compare = Double.compare(this.price, o.price);
+        if (compare != 0)
+            return compare;
+        compare = Integer.compare(this.ram, o.ram);
+        if (compare != 0)
+            return compare;
         return Integer.compare(this.brand.ordinal(), o.brand.ordinal());
     }
 
