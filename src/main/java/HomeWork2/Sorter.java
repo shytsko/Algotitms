@@ -13,7 +13,7 @@ public class Sorter {
 
     public static <T extends Comparable<T>> void insertionSort(T[] array) {
         for (int i = 1; i < array.length; i++) {
-            if(array[i].compareTo(array[i-1]) < 0) {
+            if (array[i].compareTo(array[i - 1]) < 0) {
                 int j = i - 1;
                 T temp = array[i];
                 while (j >= 0 && temp.compareTo(array[j]) < 0) {
@@ -26,7 +26,7 @@ public class Sorter {
     }
 
 
-    private static <T extends Comparable<T>> void swap(T[] array, int index1, int index2) {
+    private static <T> void swap(T[] array, int index1, int index2) {
         T temp = array[index1];
         array[index1] = array[index2];
         array[index2] = temp;
