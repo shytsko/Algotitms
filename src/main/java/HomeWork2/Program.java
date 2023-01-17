@@ -7,10 +7,13 @@
 
 package HomeWork2;
 
+import java.util.Arrays;
+
 public class Program {
     public static void main(String[] args) {
         Integer[] array = {5,6,4,9,0,2,8,7,1,3};
         Sorter.heapSort(array);
+        System.out.println(Arrays.toString(array));
 
         Notebook[] notebooks = Notebook.notebooksManufacturing(100);
         printArray(notebooks);
