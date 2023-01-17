@@ -7,7 +7,6 @@
 
 package HomeWork2;
 
-
 import java.util.Arrays;
 import java.util.Random;
 
@@ -70,22 +69,4 @@ public class Notebook implements Comparable<Notebook> {
             return compare;
         return Integer.compare(this.brand.ordinal(), o.brand.ordinal());
     }
-
-    static public void printArray(Notebook[] array) {
-        for (Notebook nout : array) {
-            System.out.println(nout);
-        }
-    }
-
-    public static void main(String[] args) {
-        Notebook[] notebooks = new Notebook[100];
-        for (int i = 0; i < notebooks.length; i++) {
-            notebooks[i] = new Notebook();
-        }
-        printArray(notebooks);
-        System.out.println("--------------------------");
-        Arrays.sort(notebooks);
-        printArray(notebooks);
-    }
-
 }
