@@ -25,6 +25,38 @@ public class Sorter {
         }
     }
 
+    public static <T extends Comparable<T>> void quickSort(T[] array) {
+        quickSort(array, 0, array.length - 1);
+    }
+
+    private static <T extends Comparable<T>> void quickSort(T[] array, int leftIndex, int rightIndex) {
+        if (rightIndex <= leftIndex)
+            return;
+
+        int pivotIndex = partitionArray(array, leftIndex, rightIndex);
+        quickSort(array, leftIndex, pivotIndex - 1);
+        quickSort(array, pivotIndex + 1, rightIndex);
+    }
+
+    private static <T extends Comparable<T>> int partitionArray(T[] array, int leftIndex, int rightIndex) {
+        int pivotIndex = choosePivot(array, leftIndex, rightIndex);
+        swap(array, leftIndex, pivotIndex);
+        T pivot = array[leftIndex];
+        int partIndex = leftIndex + 1;
+        for (int i = leftIndex + 1; i <= rightIndex; i++) {
+            if (array[i].compareTo(pivot) < 0) {
+                swap(array, i, partIndex);
+                partIndex++;
+            }
+        }
+        swap(array, leftIndex, partIndex - 1);
+        return partIndex - 1;
+    }
+
+    private static <T> int choosePivot(T[] array, int leftIndex, int rightIndex) {
+        return (leftIndex + rightIndex) / 2;
+    }
+
 
     private static <T> void swap(T[] array, int index1, int index2) {
         T temp = array[index1];
