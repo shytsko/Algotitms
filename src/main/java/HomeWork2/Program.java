@@ -7,13 +7,15 @@
 
 package HomeWork2;
 
-import java.util.Arrays;
-import java.util.concurrent.TimeUnit;
-
 public class Program {
     public static void main(String[] args) {
-        Notebook[] notebooks = notebooksMaker(100);
-        Sorter.quickSort(notebooks);
+        Integer[] array = {5,6,4,9,0,2,8,7,1,3};
+        Sorter.heapSort(array);
+
+        Notebook[] notebooks = Notebook.notebooksManufacturing(100);
+        printArray(notebooks);
+        Sorter.heapSort(notebooks);
+        System.out.println("\n---------------- Sordet array ------------------------");
         printArray(notebooks);
     }
 
@@ -21,13 +23,5 @@ public class Program {
         for (Notebook nout : array) {
             System.out.println(nout);
         }
-    }
-
-    private static Notebook[] notebooksMaker(int count) {
-        Notebook[] notebooks = new Notebook[count];
-        for (int i = 0; i < notebooks.length; i++) {
-            notebooks[i] = new Notebook();
-        }
-        return notebooks;
     }
 }

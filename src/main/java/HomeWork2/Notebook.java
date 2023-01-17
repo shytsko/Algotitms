@@ -27,8 +27,6 @@ public class Notebook implements Comparable<Notebook> {
         }
     }
 
-    ;
-
     private static double[] PRICE_VALUES = {100, 200, 300, 400, 500, 600, 700, 800};
     private static int[] RAM_VALUES = {4, 8, 16, 20, 24, 28, 32};
     private static Brand[] BRAND_VALUES = Brand.values();
@@ -63,5 +61,13 @@ public class Notebook implements Comparable<Notebook> {
         if (compare != 0)
             return compare;
         return Integer.compare(this.brand.ordinal(), o.brand.ordinal());
+    }
+
+    public static Notebook[] notebooksManufacturing(int count) {
+        Notebook[] notebooks = new Notebook[count];
+        for (int i = 0; i < notebooks.length; i++) {
+            notebooks[i] = new Notebook();
+        }
+        return notebooks;
     }
 }
