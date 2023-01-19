@@ -104,6 +104,8 @@ public class List {
         }
 
         public static ListNode revertList(ListNode node) {
+            if(node == null)
+                return null;
             return revertList(node, null);
         }
 
