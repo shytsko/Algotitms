@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f0a6d77-2ced-4136-8587-0d6fb23934e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HomeWork3/List.java" afterDir="false" />
+    <list default="true" id="5b70c2f0-e690-421e-963c-744effd3ff86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +149,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5f0a6d77-2ced-4136-8587-0d6fb23934e1" name="Changes" comment="" />
+      <changelist id="5b70c2f0-e690-421e-963c-744effd3ff86" name="Changes" comment="" />
       <created>1673543538186</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
